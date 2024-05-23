@@ -83,8 +83,8 @@ def donner_mot():
         test_chemin = os.path.isfile(chemin)  # vérifie que le fichier existe au bon endroit
         if test_chemin:
             return choisir_mot(chemin)  # retourne un mot aléatoire dans le fichier utilisateur
-    else:
         print("Le fichier n'est pas à l'endroit décrit. La partie est lancée avec un mot par défaut.")
+    else:
         return choisir_mot()  # retourne un mot aléatoire dans le fichier par défaut
 
 
