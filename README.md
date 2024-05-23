@@ -27,9 +27,12 @@ De plus :
     L'utilisateur peut mettre à jours le nombre d'essais à chaque partie. 
 
 ! Attention aux majuscules dans les mots ! 
-    Il n'y en a pas dans le fichier par défaut, mais le code fait la différence entre la majuscule et la minuscule ainsi 'A' est différent de 'a' pour le jeu.
+
+    Il n'y en a pas dans le fichier par défaut, mais le code fait la différence entre la majuscule et la minuscule.
+    Ainsi 'A' est différent de 'a' pour le jeu.
 
 Lorsque l'adresse du fichier doit être fournis merci de le faire pour chaque élément sous la forme décrite :
+
     - chemin, ex : C:\User\Jeu
     - fichier, ex : mots_pendu
     le code crée automatiquement une adresse 'C:\User\Jeu\mots_pendu.txt'
